@@ -13,6 +13,7 @@ function processarFormularioComplemento()
     $cidade = $_POST['cidade'];
     $estado = $_POST['estado'];
     $pais = $_POST['pais'];
+    
     $numero = $_POST['numero'];
     $complemento = $_POST['complemento'];
 
@@ -22,7 +23,7 @@ function processarFormularioComplemento()
     $cadastroUsuario->setTelefone($telefone);
 
     $cadastroUsuarioController = new CadastroUsuarioController();
-    $cadastroUsuarioController->InserirUsuario($cadastroUsuario);
+    $cadastroUsuarioController->InserirDadosComplementares($cadastroUsuario);
 }
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
