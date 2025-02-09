@@ -4,6 +4,8 @@ Patinhas Felizes é uma plataforma dedicada a ajudar tutores a encontrar seus an
 
 Nosso objetivo é proporcionar um espaço centralizado para a divulgação de pets desaparecidos, facilitando a comunicação entre tutores e pessoas dispostas a ajudar. 🚀🐾
 
+![](public/img/Logo.svg)
+
 ## Instalação
 
 Atualmente, o projeto Patinhas Felizes é dependente do Apache. Ou seja, você precisará do Xampp, WampServer ou Laragon para rodar o projeto.
