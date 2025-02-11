@@ -60,7 +60,7 @@
     <?php if (!$dados_preenchidos): ?>
         <div class="bg-white p-10 rounded-lg shadow-lg w-full max-w-2xl">
             <h2 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Complete seu cadastro</h2>
-            <form action="salvar_dados.php" method="POST">
+            <form action="../../controller/ComplementoCadastro.php" method="POST">
                 <div id="step1">
                     <div class="mb-6">
                         <label for="telefone" class="block text-sm font-medium text-gray-700">Telefone <span class="text-red-600">*</span></label>
@@ -71,8 +71,6 @@
                 <div id="step2" class="hidden">
                     <div class="grid grid-cols-2 gap-6">
                         <div class="mb-4">
-                            <?= $_SESSION['uid']; ?>
-                            <?= $_SESSION['uname']; ?>
                             <label for="cep" class="block text-sm font-medium text-gray-700">CEP <span class="text-red-600">*</span></label>
                             <input type="text" class="block w-full appearance-none rounded-md border border-gray-200 bg-gray-50 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-blue-500 focus:bg-white focus:outline-hidden focus:ring-blue-500 sm:text-sm" id="cep" name="cep" required onblur="buscarCep()">
                         </div>

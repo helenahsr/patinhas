@@ -21,18 +21,18 @@
                 <p class="mt-2 text-sm text-gray-700">Não possui uma conta?
                     <a class="font-medium text-blue-600 hover:underline" href="../cadastroUsuario/cadastro-usuario.php">Crie uma aqui!</a>
                 </p>
-                <form class="mt-10 grid grid-cols-1 gap-y-8" action="Login.php" method="POST">
+                <form class="mt-10 grid grid-cols-1 gap-y-8" action="../../controller/LoginController.php" method="POST">
                     <div>
-                        <label for="emailUsuarioLogin" class="mb-3 block text-sm font-medium text-gray-700">Email <span class="text-red-600">*</span></label>
-                        <input id="emailUsuarioLogin" type="email" autoComplete="email" required=""
+                        <label for="emailLoginUsuario" class="mb-3 block text-sm font-medium text-gray-700">Email <span class="text-red-600">*</span></label>
+                        <input id="emailLoginUsuario" type="email" autoComplete="email" required=""
                             class="block w-full appearance-none rounded-md border border-gray-200 bg-gray-50 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-orange-500 focus:bg-white focus:outline-hidden focus:ring-orange-500 sm:text-sm"
-                            name="emailUsuarioLogin" />
+                            name="emailLoginUsuario" />
                     </div>
                     <div>
-                        <label for="senhaUsuarioLogin" class="mb-3 block text-sm font-medium text-gray-700">Senha <span class="text-red-600">*</span></label>
-                        <input id="senhaUsuarioLogin" type="password" autoComplete="current-password" required=""
+                        <label for="senhaLoginUsuario" class="mb-3 block text-sm font-medium text-gray-700">Senha <span class="text-red-600">*</span></label>
+                        <input id="senhaLoginUsuario" type="password" autoComplete="current-password" required=""
                             class="block w-full appearance-none rounded-md border border-gray-200 bg-gray-50 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-orange-500 focus:bg-white focus:outline-hidden focus:ring-orange-500 sm:text-sm"
-                            name="senhaUsuarioLogin" />
+                            name="senhaLoginUsuario" />
                     </div>
                     <div>
                         <button

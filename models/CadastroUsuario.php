@@ -83,4 +83,12 @@ class CadastroUsuario {
         return $this->pais;
     }
 
+    public function getNumero() {
+        return $this->numero;
+    }
+
+    public function getComplemento() {
+        return $this->complemento;
+    }
+
 }
